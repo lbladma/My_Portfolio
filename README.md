@@ -1,9 +1,11 @@
 <h1 align="center">My Portfolio</h1> 
-  
+
+
+
 
 ## Summary
-Learn everything you need to know about me as a full-stack web developer and dive into some of my most recent projects.
-This site was created purely through the front end using HTML, CSS, and Javascript with a mobile-first design.
+This portfolio is the result of my continues hard work and sleepless nights to learn and master most tools that were covered in this course. This porfolio is a showcase my personal porjects that I worked on during this course.
+Throughout this portfolio, Some projects that I worked on include but are not limited to Technologies, and skills I learned using advanced CSS and Html, JS, Node, React and many coding tools.
 
 #
 #
@@ -35,13 +37,16 @@ This site was created purely through the front end using HTML, CSS, and Javascri
 #
 #
 ## License
-This Project is covered by the [MIT] license
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 #
 #
 
 ## Challenges
-The main challenge for this site was positioning all sections to stay properly formatted and look visually appealing. The second challenge that followed closely behind was creating media queries in order for the site to mantain a strong appearance on both desktop and mobile.
+There are many challenges that i faced working on this project. However, I was able to overcome most of them either by searching online and by asking for help. 
+The main challenge I faced was formatting and styling the elements within the site. 
+The other main challenge I faced was debugging and cleaning the code after I finished working on the site.
 
 #
 #
@@ -122,14 +127,19 @@ The main challenge for this site was positioning all sections to stay properly f
 				title="GITHUB"
 				  />
 <br><br>
+#
+#
 
 
 ## Link 
 This is the live URL/link to My [Portfolio](https://lbladma.github.io/My_Portfolio/).
 
-#
-#
 
-## LinkedIn<br><br>
+
+ #
+ #
+
+## My LinkedIn
+This is My LinkedIn page
 
  <a href="https://www.linkedin.com/in/taoufika/" target="_blank"><img src="linkedin.png" alt="Linkedin" title="Linkedin" class="image" a/> 
