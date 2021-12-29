@@ -55,7 +55,7 @@ The other main challenge I faced was debugging and cleaning the code after I fin
 			width="3%"
 			alt="HTML"
 			title="HTML" />
-		  <img src="CSS.png"
+		  <img src="css.png"
 		  width="3%"
 		  alt="CSS"
 		  title="CSS"
