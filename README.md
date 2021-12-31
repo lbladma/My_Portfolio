@@ -51,81 +51,28 @@ The other main challenge I faced was debugging and cleaning the code after I fin
 #
 #
 ## Technologies
-<img src="html.png"
-			width="3%"
-			alt="HTML"
-			title="HTML" />
-		  <img src="css.png"
-		  width="3%"
-		  alt="CSS"
-		  title="CSS"
-		/>
-		<img src="mysql.png"
-			width="3%"
-			alt="MySql"
-			title="MySql"
-		  />
-		  <img src="BS.png"
-			width="3%"
-			alt="BootStrap"
-			title="BootStrap"
-		  />
-		  <img src="JS.png"
-			width="3%"
-			alt="JavaScript"
-			title="JavaScript"
-		  />
-		  <img src="api.png"
-			width="3%"
-			alt="API"
-			title="API"
-		  />
-		  <img src="materialize.png"
-		width="3%"
-		alt="Materialize"
-		title="Materialize"
-		  />
-		
-<img src="node.png"
-		width="3%"
-		alt="Node"
-		title="Node"
-		  />
-		  <img src="vue.png"
-		width="3%"
-		alt="Vue"
-		title="Vue"
-		  />
-		  <img src="sql.png"
-		  width="3%"
-		  alt="SQL"
-		  title="SQL"
-			/>
-			<img src="express.png"
-		  width="3%"
-		  alt="EXPRESS"
-		  title="EXPRESS"
-			/>
-			<img src="react.png"
-		  width="3%"
-		  alt="REACT"
-		  title="REACT"
-			/>
-			<img src="jQuery.png"
-			width="3%"
-			alt="jQuery"
-			title="jQuery"
-			  />
-			  <img src="redux.png"
-			  width="3%"
-			  alt="REDUX"
-			  title="REDUX"
-				/>
-				<img src="github.png"
-				width="3%"
-				alt="GITHUB"
-				title="GITHUB"
-				  />
+
+<img src="images/html.png" width="3%" alt="HTML" title="HTML" />
+<img src="images/css.png" width="3%" alt="CSS" title="CSS" />
+<img src="images/mysql.png" width="3%" alt="MySql" title="MySql" />
+<img src="images/BS.png" width="3%" alt="BootStrap" title="BootStrap" />
+<img src="images/JS.png" width="3%" alt="JavaScript" title="JavaScript" />
+<img src="images/api.png" width="3%" alt="API" title="API" />
+<img src="images/materialize.png" width="3%" alt="Materialize" title="Materialize" />
+<img src="images/node.png" width="3%" alt="NodeJS" title="NodeJS" />
+<img src="images/github.png" width="3%" alt="Github" title="Github" />
+<img src="images/git.png" width="3%" alt="Git" title="Git" />
+<img src="images/mongo.png" width="3%" alt="MongoDB" title="MongoDB" />
+<img src="images/react.png" width="3%" alt="React" title="React" />
+<img src="images/redux.png" width="3%" alt="Redux" title="Redux" />
+<img src="images/vscode.png" width="3%" alt="VSCode" title="VSCode" />
+<img src="images/sql.png" width="3%" alt="SQL" title="SQL" />
+<img src="images/express.png" width="3%" alt="Express" title="Express" />
+<img src="images/mui.png" width="3%" alt="MUI" title="MUI" />
+<img src="images/graphql.png" width="3%" alt="GraphQL" title="GraphQL" />
+
+	
+		 
 <br><br>
 #
 #
