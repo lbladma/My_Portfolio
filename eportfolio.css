@@ -1,6 +1,5 @@
-
 /*
-CSS Styling Portfolio Page---Using Advanced CSS
+ePortfolio Using Advanced CSS
 Author: Taoufik A.
 Date: 12/30/2021 
 Course: UNC Coding BootCamp
@@ -15,7 +14,7 @@ Course: UNC Coding BootCamp
 	*/
 
 .content p {
-	
+
 	font-family: "Courier";
 	font-size: 20px;
 	white-space: nowrap;
@@ -46,7 +45,7 @@ Course: UNC Coding BootCamp
 .content p:nth-child(3) {
 	width: 40em;
 	opacity: 0;
-	-webkit-animation: type3 2s steps(40, end);
+	-webkit-animation: type3 5s steps(40, end);
 	animation: type3 2s steps(40, end);
 	-webkit-animation-delay: 4s;
 	animation-delay: 4s;
@@ -93,14 +92,15 @@ Course: UNC Coding BootCamp
 	1% {
 		opacity: 1;
 	}
-99.9% {
-	border-right: .15em solid #f2f3ef;
-}
 
-100% {
-	opacity: 1;
-	border: none;
-}
+	99.9% {
+		border-right: .15em solid #f2f3ef;
+	}
+
+	100% {
+		opacity: 1;
+		border: none;
+	}
 }
 
 @-webkit-keyframes type2 {
@@ -120,56 +120,58 @@ Course: UNC Coding BootCamp
 		opacity: 1;
 		border: none;
 	}
-	
+
+}
+
+@keyframes type3 {
+	0% {
+		width: 0;
 	}
 
-	@keyframes type3 {
-		0% {
-			width: 0;
-		}
-
-		1% {
-			opacity: 1;
-		}
-
-		100% {
-			opacity: 1;
-		}
-		99.9% {
-			border-right: .15em solid #eb4b0c;
-		}
+	1% {
+		opacity: 1;
 	}
 
-
-	@-webkit-keyframes type3 {
-		0% {
-			width: 0;
-		}
-
-		1% {
-			opacity: 1;
-		}
-
-		100% {
-			opacity: 5;
-		}
-		99.9% {
-			border-right: .15em solid #20f72b;
-		}
-		
+	100% {
+		opacity: 1;
 	}
 
-	@keyframes blink {
-		100% {
-			border-color: transparent;
-		}
+	99.9% {
+		border-right: .15em solid #eb4b0c;
+	}
+}
+
+
+@-webkit-keyframes type3 {
+	0% {
+		width: 0;
 	}
 
-	@-webkit-keyframes blink {
-		100% {
-			border-color: tranparent;
-		}
+	1% {
+		opacity: 1;
 	}
+
+	100% {
+		opacity: 1;
+	}
+
+	99.9% {
+		border-right: .15em solid #20f72b;
+	}
+
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+@-webkit-keyframes blink {
+	50% {
+		border-color: tranparent;
+	}
+}
 
 
 /*
@@ -190,45 +192,60 @@ Course: UNC Coding BootCamp
 /*
 	*/
 
-	/*
+/*
 	*/
 
 
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	margin:fixed;
+	margin: fixed;
 	padding: 0;
 	color: black;
 	background-color: rgb(123, 192, 181);
-	
+
 }
 
-ul, ol, dl {
-padding: 2px;
-margin: 0;
+ul,
+ol,
+dl {
+	padding: 2px;
+	margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
-margin-top: 0;
-padding-right: 15px;
-padding-left: 15px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
 }
+
 a img {
-border: #FA8072;
+	border: #FA8072;
 }
 
 /*Link color and decoration*/
 a:link {
-color: #42413C;
-text-decoration:underline;
+	color: #42413C;
+	text-decoration: underline;
 }
+
 a:visited {
-color: #1447ee;
-text-decoration:line-through;
+	color: #1447ee;
+	text-decoration: line-through;
 }
-a:hover, a:active, a:focus {
-text-decoration:none;
-color: red;
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: red;
 }
+
 /*. 
 .content
  {
@@ -254,56 +271,62 @@ padding: 0px
 */
 
 .header {
-background:none;
+	background: none;
 }
 
 .sidebar {
-float: left;
-width: 200px;
-background: rgb(47, 255, 82);
-padding-bottom: 0px;
+	float: left;
+	width: 200px;
+	background: rgb(47, 255, 82);
+	padding-bottom: 0px;
 
 }
 
 
 ul.nav {
-list-style: none;
-border-top: 2px ;
-margin-bottom: 10px;
-padding: auto;
-width: 186px;
+	list-style: none;
+	border-top: 2px;
+	margin-bottom: 10px;
+	padding: auto;
+	width: 186px;
 }
+
 ul.nav li {
-border: 20px outset;
-padding: 5px;
-border-color: rgb(47, 255, 82);
-text-decoration:none;
-padding: right 20px;
+	border: 20px outset;
+	padding: 5px;
+	border-color: rgb(47, 255, 82);
+	text-decoration: none;
+	padding: right 20px;
 }
-ul.nav li dl dd{
+
+ul.nav li dl dd {
 
 	margin-left: -30px;
-	
-	}
-ul.nav a, ul.nav a:visited {
-padding: 2px 5px 5px 10px;
-display:block;
-width: 120px;
-text-decoration:blue;
-background: none;
+
 }
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
-border: 2px;
-padding: 1px;
-border-color: #FA8072;
-text-decoration:none;
+
+ul.nav a,
+ul.nav a:visited {
+	padding: 2px 5px 5px 10px;
+	display: block;
+	width: 120px;
+	text-decoration: blue;
+	background: none;
+}
+
+ul.nav a:hover,
+ul.nav a:active,
+ul.nav a:focus {
+	border: 2px;
+	padding: 1px;
+	border-color: #FA8072;
+	text-decoration: none;
 
 }
 
 
 /* emailme button effects and settings */
-#emailme
-{
+#emailme {
 	display: block;
 	margin: auto;
 	width: 120px;
@@ -311,33 +334,31 @@ text-decoration:none;
 	background: url('images/emailme.gif') no-repeat 0 0;
 }
 
-#emailme:hover
-{
+#emailme:hover {
 	background-position: 0 -40px;
 }
 
-#emailUs span
-{
-	display:flex; 
+#emailUs span {
+	display: flex;
 }
 
 #footer {
-	
+
 	text-align: center;
 	color: rgb(10, 3, 3);
 }
 
 #footer a {
 	color: rgb(20, 18, 18);
-	position:top ;
+	position: top;
 }
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
 
-	}
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {}
+
 /* media query for larger screens */
-@media screen and (min-width: 992px) {
-}
+@media screen and (min-width: 992px) {}
+
 /*
 .parent-img {
 	position: relative;
@@ -391,9 +412,9 @@ image container Overlay */
 .container1 {
 	position: relative;
 	width: 50%;
-  }
-  
-  .image {
+}
+
+.image {
 	opacity: 1;
 
 	width: 200%;
@@ -401,9 +422,9 @@ image container Overlay */
 	transition: .5s ease;
 	backface-visibility: hidden;
 	border-radius: 50%;
-  }
-  
-  .middle {
+}
+
+.middle {
 	transition: .30s ease;
 	opacity: 0;
 	position: relative;
@@ -412,22 +433,19 @@ image container Overlay */
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-  }
-  
-  .container1:hover .image {
+}
+
+.container1:hover .image {
 	opacity: 0.3;
-  }
-  
-  .container1:hover .middle {
+}
+
+.container1:hover .middle {
 	opacity: 50;
-  }
-  
-  .text {
-	
+}
+
+.text {
+
 	color: white;
 	font-size: 20px;
 	padding: 0px 0px;
-  }
-
-
-
+}
