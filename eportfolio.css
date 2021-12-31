@@ -1,18 +1,205 @@
 
 /*
-Assignment/Homework-2: ePortfolio Using Advanced CSS
+CSS Styling Portfolio Page---Using Advanced CSS
 Author: Taoufik A.
-Date: 06/15/2021 
+Date: 12/30/2021 
 Course: UNC Coding BootCamp
 */
 
 
+/*
+	*/
+/*
+	*/
+/*
+	*/
+
+.content p {
+	
+	font-family: "Courier";
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content p:nth-child(1) {
+	width: 15.3em;
+	-webkit-animation: type 2s steps(40, end);
+	animation: type 2s steps(40, end);
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+
+
+.content p:nth-child(2) {
+	width: 25.5em;
+	opacity: 0;
+	-webkit-animation: type2 2s steps(40, end);
+	animation: type2 2s steps(40, end);
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.content p:nth-child(3) {
+	width: 40em;
+	opacity: 0;
+	-webkit-animation: type3 2s steps(40, end);
+	animation: type3 2s steps(40, end);
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+	0% {
+		width: 0;
+	}
+
+	99.9% {
+		border-right: .15em solid #e73a0f;
+	}
+
+	100% {
+		border: none;
+	}
+}
+
+
+
+@-webkit-keyframes type {
+	0% {
+		width: 50;
+	}
+
+	99.9% {
+		border-right: .50em solid #eb3508;
+	}
+
+	100% {
+		border: none;
+	}
+}
+
+@keyframes type2 {
+	0% {
+		width: 0;
+	}
+
+	1% {
+		opacity: 1;
+	}
+99.9% {
+	border-right: .15em solid #f2f3ef;
+}
+
+100% {
+	opacity: 1;
+	border: none;
+}
+}
+
+@-webkit-keyframes type2 {
+	0% {
+		width: 0;
+	}
+
+	1% {
+		opacity: 1;
+	}
+
+	99.9% {
+		border-right: .15em solid #171be4;
+	}
+
+	100% {
+		opacity: 1;
+		border: none;
+	}
+	
+	}
+
+	@keyframes type3 {
+		0% {
+			width: 0;
+		}
+
+		1% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 1;
+		}
+		99.9% {
+			border-right: .15em solid #eb4b0c;
+		}
+	}
+
+
+	@-webkit-keyframes type3 {
+		0% {
+			width: 0;
+		}
+
+		1% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 5;
+		}
+		99.9% {
+			border-right: .15em solid #20f72b;
+		}
+		
+	}
+
+	@keyframes blink {
+		100% {
+			border-color: transparent;
+		}
+	}
+
+	@-webkit-keyframes blink {
+		100% {
+			border-color: tranparent;
+		}
+	}
+
+
+/*
+	*/
+
+/*
+	*/
+
+
+/*
+	*/
+
+
+/*
+	*/
+
+
+/*
+	*/
+
+	/*
+	*/
+
+
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background: #E0DCDC url(me.PNG);
-	margin: 0;
+	margin:fixed;
 	padding: 0;
 	color: black;
+	background-color: rgb(123, 192, 181);
 	
 }
 
@@ -42,21 +229,20 @@ a:hover, a:active, a:focus {
 text-decoration:none;
 color: red;
 }
-
+/*. 
 .content
  {
 padding: 0px 0px;
-width: 1000px;
+width: 1400px;
 height: auto;
 float:center;
 background: rgb(47, 255, 82);
 }
 
-/*.content ul, .content ol {
+content ul, .content ol {
 padding: 10px 20px 20px;
 }
-*/
-
+/*. 
 .container {
 width: 1000px;
 background: white;
@@ -64,6 +250,8 @@ margin: 3 auto ;
 padding-bottom: 5px;
 padding: 0px
 }
+
+*/
 
 .header {
 background:none;
@@ -120,7 +308,7 @@ text-decoration:none;
 	margin: auto;
 	width: 120px;
 	height: 30px;
-	background: url('emailme.gif') no-repeat 0 0;
+	background: url('images/emailme.gif') no-repeat 0 0;
 }
 
 #emailme:hover
@@ -150,10 +338,56 @@ text-decoration:none;
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
 }
+/*
+.parent-img {
+	position: relative;
+}
+
+.parent-img-responsive {
+	width: 50%;
+	height: auto;
+}
+.child-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/*
+img:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+*/
+
+/*
+
+.typed-out {
+	overflow:auto;
+	
+	white-space: nowrap;
+	animation: typing 10.5s steps(50, end) forwards;
+	font-size: 1.6rem;
+	width: 0;
+}
+
+@keyframes typing {
+	from {
+		width: 0
+	}
+
+	to {
+		width: 80%
+	}
+}
+
+*/
 
 
 
-/*image container Overlay */
+/*
+image container Overlay */
 .container1 {
 	position: relative;
 	width: 50%;
@@ -161,12 +395,12 @@ text-decoration:none;
   
   .image {
 	opacity: 1;
-	display: block;
+
 	width: 200%;
 	height: 400px;
 	transition: .5s ease;
 	backface-visibility: hidden;
-	
+	border-radius: 50%;
   }
   
   .middle {
@@ -177,7 +411,7 @@ text-decoration:none;
 	left: 100%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	text-align: left;
+	text-align: center;
   }
   
   .container1:hover .image {
@@ -185,13 +419,13 @@ text-decoration:none;
   }
   
   .container1:hover .middle {
-	opacity: 1;
+	opacity: 50;
   }
   
   .text {
-	background-color: rgb(179, 245, 179);
+	
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 0px 0px;
   }
 
